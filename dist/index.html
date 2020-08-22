@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Acarine - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Pretty Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    @import url('font/SangoUppercase-Static.otf');
+  </style>
+
+</head>
+
+  <body class="">
+
+    <!-- Better to wrap barba container as close as possible -->
+    <div data-barba="wrapper">
+      <!-- Only this section changes on link navigation -->
+      <main data-barba="container" data-barba-namespace="home">
+          <section class="relative w-full h-screen bg-white"> 
+            <div class="flex flex-col items-center relative h-full w-full bg-richblack p-10">
+              <div class="inline-block w-full h-full">
+                <div class="text-off-white font-sango">
+                  <a href="#" onclick="navAnimation()"><img src="img/menu2.png" id="nav" alt="expand menu" class="absolute top-0 left-0 h-12 w-12 mt-4 ml-4"></a>
+                  <ul id="nav-items" class="justify-around hidden">
+                    <li>home</li>
+                    <li>about</li>
+                    <li>services</li>
+                  </ul>
+                </div>
+                <a href="#"><img src="img/ow-da.png" alt="explore" class="absolute top-0 right-0 h-10 w-10 mt-4 mr-4"></a>
+              </div>
+
+              <div id="midbar" class="bg-main-purple flex flex-col h-16 w-full rounded-sm items-center z-20">
+                <h1 id="test" class="text-off-white text-6xl font-sango">ACARINE WEB DEVELOPMENT</h1>
+              </div>
+
+              <div class="inline-block w-full h-full">
+                <div class="w-1/6 absolute bottom-0 right-0 flex justify-evenly p-4 pr-0">
+                    <a href="#"><img src="img/facebook.png" alt="facebook" class="h-10 w-10"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="linkedin" class="h-10 w-10"></a>
+                    <a href="#"><img src="img/mail.png" alt="mail" class="h-10 w-10"></a>
+                </div>
+                <div id="share" class="w-1/6 absolute bottom-0 left-0 flex p-4">
+                    <a href="#" ><img src="img/share2.png" alt="share" class="h-12 w-12"></a>
+                </div>
+              </div>
+
+            </div>
+          </section>
+      </main>
+
+    </div>
+
+  </body>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+  <!-- Main JS file -->
+  <script src="index.js"></script>
+
+
+</html>
