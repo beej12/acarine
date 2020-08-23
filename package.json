@@ -1,10 +1,14 @@
 {
-  "name": "ACARINE2",
+  "name": "acarine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beej12/acarine.git"
   },
   "keywords": [],
   "author": "",
